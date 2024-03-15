@@ -48,7 +48,7 @@ def save_click_count(db_path, click_count):
 
 pygame.init()
 
-pygame.display.set_caption("Cat meme sounder --- created by @TaiyakiSontyo --- v${version}")
+pygame.display.set_caption(f"Cat meme sounder --- created by @TaiyakiSontyo --- v{version}")
 
 icon_path = resource_path("icon.png")
 icon_exists = os.path.exists(icon_path)
