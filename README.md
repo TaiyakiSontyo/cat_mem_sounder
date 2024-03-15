@@ -59,6 +59,12 @@ pip install -r requirements.txt
 これでライブラリのインストールは完了です。
 [requirements.txtはこちらからダウンロード](https://github.com/TaiyakiSontyo/cat_mem_sounder/blob/main/requirements.txt)
 
+### background.jpgについて
+
+1920x1080のjpg画像でファイルの名前が`background.jpg`であればなんでもかまいません。
+初期ではグリーンバックになっています。変えなくても差し支えありません。
+ただし、この画像がないとソフトが起動しないので注意してください。
+
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ### 動作確認
