@@ -54,7 +54,7 @@ if icon_exists:
     icon_surface = pygame.image.load(icon_path)
     pygame.display.set_icon(icon_surface)
 
-background_image_path = resource_path("background.png")
+background_image_path = "background.jpg"
 
 images = [resource_path(image_path) for image_path in ["chipichipicat.png", "girlfriendcat.png", "EDMcat.png", "sekkyoucat.png", "sekkyousarerucat.png", "goat.png", "huhcat.png", "punchcat.png", "happycat.png", "bananadash.png", "bananacry.png", "crycat.png", "ibikicat.png", "bikecat.png", "PCcat.png", "saracat.png", "pakupakucat.png", "niramicat.png", "deencat.png", "gunyacat.png", "sleepycat.png", "Maxwellcat.png", "hagishiricat.png", "DJcat.png", "ikicat.png", "guncat.png", "bikkuricat.png", "sleepycat2.png", "drivecat.png", "godcat.png", "zetsuboucat.png", "laughingdog.png", "gerocat.png", "applecat.png", "nothappycat.png", "waitingforlovecat.png", "mogumogucat.png", "miccat.png", "toothlesscat.png", "mukanjoucat.png"]]
 sounds = [resource_path(sound_path) for sound_path in ["chipichipicat.mp3", "girlfriendcat.mp3", "EDMcat.mp3", "sekkyoucat.mp3", "sekkyousarerucat.mp3", "goat.mp3", "huhcat.mp3", "punchcat.mp3", "happycat.mp3", "bananadash.mp3", "bananacry.mp3", "crycat.mp3", "ibikicat.mp3", "bikecat.mp3", "PCcat.mp3", "saracat.mp3", "pakupakucat.mp3", "niramicat.mp3", "deencat.mp3", "gunyacat.mp3", "sleepycat.mp3", "Maxwellcat.mp3", "hagishiricat.mp3", "DJcat.mp3", "ikicat.mp3", "guncat.mp3", "bikkuricat.mp3", "sleepycat2.mp3", "drivecat.mp3", "godcat.mp3", "zetsuboucat.mp3", "laughingdog.mp3", "gerocat.mp3", "applecat.mp3", "nothappycat.mp3", "waitingforlovecat.mp3", "mogumogucat.mp3", "miccat.mp3", "toothlesscat.mp3", "mukanjoucat.mp3"]]
