@@ -61,6 +61,8 @@ pip install -r requirements.txt
 
 ### background.jpgについて
 
+初期設定でインスト―ルされるパスは以下の通りです。
+`C:\Users\<ユーザー名>\AppData\Local\Programs\cat_meme_sounder\background.jpg`
 1920x1080のjpg画像でファイルの名前が`background.jpg`であればなんでもかまいません。
 初期ではグリーンバックになっています。変えなくても差し支えありません。
 ただし、この画像がないとソフトが起動しないので注意してください。
