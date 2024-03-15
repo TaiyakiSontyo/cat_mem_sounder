@@ -3,6 +3,8 @@ import os
 import sqlite3
 import sys
 
+version = "1.2"
+
 def resource_path(relative_path):
     if hasattr(sys, '_MEIPASS'):
         return os.path.join(sys._MEIPASS, relative_path)
@@ -46,7 +48,7 @@ def save_click_count(db_path, click_count):
 
 pygame.init()
 
-pygame.display.set_caption("Cat meme sounder --- created by @TaiyakiSontyo")
+pygame.display.set_caption("Cat meme sounder --- created by @TaiyakiSontyo --- v${version}")
 
 icon_path = resource_path("icon.png")
 icon_exists = os.path.exists(icon_path)
